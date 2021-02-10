@@ -10,8 +10,8 @@
     }
     
     nav {
-        margin: -10px auto;
-        width: 90%;
+        margin: -10px 750px;
+        width: 100%;
         max-width: 100px;
     }
 
@@ -27,7 +27,6 @@
         width: 100%;
         background: rgb(255, 255, 255);
         position: relative;
-        
     }
 
     nav > ul li {
@@ -52,12 +51,8 @@
         transition: all .5s ease;
     }
 
-    nav > ul > li > ul > li a:hover {
-        background: #5da;
-    }
-
     nav > ul > li > a span {
-        background: #174459;
+        background: #030303;
         display: block;
         height: 100%;
         width: 100%;
