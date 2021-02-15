@@ -131,18 +131,18 @@ body{
 
 
 /* ---- ----- ----- Contenedor principal y flechas ----- ----- ----- */
-.albums-recomendados {
+.jordan-zapatillas {
 	margin-bottom: 70px;
 }
 
-.albums-recomendados .contenedor-principal {
+.jordan-zapatillas .contenedor-principal {
 	display: flex;
 	align-items: center;
 	position: relative;
 }
 
-.albums-recomendados .contenedor-principal .flecha-izquierda,
-.albums-recomendados .contenedor-principal .flecha-derecha {
+.jordan-zapatillas .contenedor-principal .flecha-izquierda,
+.jordan-zapatillas .contenedor-principal .flecha-derecha {
 	position:absolute;
 	border: none;
 	background: rgba(0, 0, 0, 0.3);
@@ -158,41 +158,41 @@ body{
 }
 
 /*que se vea mas las fechas al estar encima*/
-.albums-recomendados .contenedor-principal .flecha-izquierda:hover,
-.albums-recomendados .contenedor-principal .flecha-derecha:hover {
+.jordan-zapatillas .contenedor-principal .flecha-izquierda:hover,
+.jordan-zapatillas .contenedor-principal .flecha-derecha:hover {
 	background: rgba(0, 0, 0, .9);
 }
-.albums-recomendados .contenedor-principal .flecha-izquierda {
+.jordan-zapatillas .contenedor-principal .flecha-izquierda {
 	left: 0;
 }
-.albums-recomendados .contenedor-principal .flecha-derecha {
+.jordan-zapatillas .contenedor-principal .flecha-derecha {
 	right: 0;
 }
 
 /* ---- ----- ----- Carousel ----- ----- ----- */
-.albums-recomendados .contenedor-carousel {
+.jordan-zapatillas .contenedor-carousel {
 	width: 100%;
 	padding: 20px 0;
 	overflow: hidden;
 	scroll-behavior: smooth;
 }
 
-.albums-recomendados .contenedor-carousel .carousel{
+.jordan-zapatillas .contenedor-carousel .carousel{
 	display: flex;
 	flex-wrap: nowrap;
 }
 
-.albums-recomendados .contenedor-carousel .carousel .album {
+.jordan-zapatillas .contenedor-carousel .carousel .jordan {
 	min-width: 20%;
 	transition: .3s ease all;
 	box-shadow: 5px 5px 10px rga(0,0,0, .3);
 }
 
-.albums-recomendados .contenedor-carousel .carousel .album.hover {
+.jordan-zapatillas .contenedor-carousel .carousel .jordan.hover {
 	transform: scale(1.2);
 	transform-origin: center;
 }
-.albums-recomendados .contenedor-carousel .carousel .album img {
+.jordan-zapatillas .contenedor-carousel .carousel .jordan img {
 	width: 100%;
 	vertical-align: top;
 }
@@ -202,7 +202,7 @@ body{
 
 
 /* --- --- Primera imagen jordan --- ---*/
-.pelicula-principal {
+.imagen-jordan-1 {
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
@@ -214,12 +214,12 @@ body{
     align-items: end;
 }
 
-.pelicula-principal .contenedor {
+.imagen-jordan-1 .contenedor {
     margin: 0 auto;
     margin-bottom: 6.25em;
 }
 
-.pelicula-principal .titulo {
+.imagen-jordan-1 .titulo {
     font-weight: 600;
     font-size: 3.12em;
     margin-bottom: 0.4em;
@@ -227,7 +227,7 @@ body{
     margin-left: 1em;
 }
 
-.pelicula-principal .descripcion {
+.imagen-jordan-1 .descripcion {
     font-weight: normal;
     font-size: 1em;
     line-height: 1.75em;
@@ -236,7 +236,7 @@ body{
     margin-left: 2em;
 }
 
-.pelicula-principal .boton {
+.imagen-jordan-1 .boton {
     background: rgba(0,0,0, 0.5);
     border: none;
     border-radius: 0.31em;
@@ -249,18 +249,18 @@ body{
     margin-left: 2em;
 }
 
-.pelicula-principal .boton:hover {
+.imagen-jordan-1 .boton:hover {
     background: #fff;
     color: #000;
 }
 
-.pelicula-principal .boton i {
+.imagen-jordan-1 .boton i {
     margin-right: 1.25em;
 }
 
 
 /* --- --- Segunda imagen jordan --- ---*/
-.pelicula-principal-2 {
+.imagen-jordan-2 {
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
@@ -274,12 +274,12 @@ body{
     margin-right: 6em;
 }
 
-.pelicula-principal-2 .contenedor {
+.imagen-jordan-2 .contenedor {
     margin: 0 auto;
     margin-bottom: 6.25em;
 }
 
-.pelicula-principal-2 .titulo {
+.imagen-jordan-2 .titulo {
     font-weight: 600;
     font-size: 3.12em;
     margin-bottom: 0.4em;
@@ -287,7 +287,7 @@ body{
     margin-left: 1em;
 }
 
-.pelicula-principal-2 .descripcion {
+.imagen-jordan-2 .descripcion {
     font-weight: normal;
     font-size: 1em;
     line-height: 1.75em;
@@ -296,7 +296,7 @@ body{
     margin-left: 1.25em;
 }
 
-.pelicula-principal-2 .boton {
+.imagen-jordan-2 .boton {
     background: rgba(0,0,0, 0.5);
     border: none;
     border-radius: 0.31em;
@@ -309,12 +309,11 @@ body{
     margin-left: 1.25em;
 }
 
-.pelicula-principal-2 .boton:hover {
+.imagen-jordan-2 .boton:hover {
     background: #fff;
     color: #000;
 }
 
-.pelicula-principal-2 .boton i {
+.imagen-jordan-2 .boton i {
     margin-right: 1.25em;
 }
-
