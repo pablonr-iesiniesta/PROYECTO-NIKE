@@ -2,7 +2,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }    
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
 /* --- --- Menú --- ---*/
     
     header {
@@ -125,18 +131,17 @@
     font-weight: 600;
     font-size: 3.12em;
     margin-bottom: 0.4em;
-    margin-top: 1.5em;
-    margin-left: -11em;
+    margin-top: 0.5em;
+    margin-left: 1em;
 }
 
 .imagen-jordan-1 .descripcion {
     font-weight: normal;
     font-size: 1em;
-    line-height: 1.65em;
+    line-height: 1.75em;
     max-width: 50%;
-    margin-bottom: 1.35em;
-    margin-left: -32em;
-    margin-right: 2em;
+    margin-bottom: 1.25em;
+    margin-left: 2em;
 }
 
 .imagen-jordan-1 .boton {
@@ -145,11 +150,11 @@
     border-radius: 0.31em;
     padding: 0.93em 1.87em;
     color: #fff;
-    margin-right: 30.25em;
+    margin-right: 1.25em;
     cursor: pointer;
     transition: .3s ease all;
     font-size: 1.12em;
-    margin-left: -30em;
+    margin-left: 2em;
 }
 
 .imagen-jordan-1 .boton:hover {
@@ -158,5 +163,64 @@
 }
 
 .imagen-jordan-1 .boton i {
+    margin-right: 1.25em;
+}
+
+
+
+
+.imagen-jordan-2 {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/nike-baloncesto.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.imagen-jordan-2 .contenedor {
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.imagen-jordan-2 .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.imagen-jordan-2 .descripcion {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+    margin-left: 2em;
+}
+
+.imagen-jordan-2 .boton {
+    background: rgba(0,0,0, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+    margin-left: 2em;
+}
+
+.imagen-jordan-2 .boton:hover {
+    background: #fff;
+    color: #000;
+}
+
+.imagen-jordan-2 .boton i {
     margin-right: 1.25em;
 }
