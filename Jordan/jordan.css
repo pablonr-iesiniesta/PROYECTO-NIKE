@@ -219,6 +219,10 @@ body{
     align-items: end;
 }
 
+.imagen-jordan-1:hover {
+    font-size: 17px;
+}
+
 .imagen-jordan-1 .contenedor {
     margin: 0 auto;
     margin-bottom: 6.25em;
