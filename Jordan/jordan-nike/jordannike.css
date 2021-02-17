@@ -1,0 +1,33 @@
+.imagen-jordan-1 {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jordan23.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.imagen-jordan-1 .contenedor {
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
+
+.imagen-jordan-1 .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.imagen-jordan-1 .descripcion {
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 50%;
+    margin-bottom: 1.25em;
+    margin-left: 2em;
+}
