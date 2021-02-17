@@ -8,11 +8,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-main {
-	margin-top: 150px;
+header {
+	background-color: black;
 }
 
+main {
+	margin-top: 10px;
+	background-color: rgb(167, 164, 164);
+}
+
+.bannerpg {
+	display: block;
+	margin: auto;
+}
 main .contenedor {
 	width: 90%;
 	max-width: 1000px;
