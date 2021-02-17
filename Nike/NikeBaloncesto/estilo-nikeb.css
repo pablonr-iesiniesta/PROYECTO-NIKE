@@ -1,52 +1,23 @@
-:root {
-	--rojo: #E50914;
-	--fondo: #141414;
-}
-
 * {
-	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	margin: 0;
 }
 
 body {
-	background: var(--fondo);
-	font-family: 'Open Sans', sans-serif;
+	background: #F4F4FA;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.contenedor {
+
+main {
+	margin-top: 150px;
+}
+
+main .contenedor {
 	width: 90%;
+	max-width: 1000px;
 	margin: auto;
 }
-
-header {
-	padding: 30px 0;
-}
-
-header .contenedor {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-header .logotipo {
-	font-family: 'Bebas Neue', cursive;
-	font-weight: normal;
-	color: var(--rojo);
-	font-size: 40px;
-}
-
-header nav a {
-	color: #AAA;
-	text-decoration: none;
-	margin-right: 20px;
-}
-
-header nav a:hover,
-header nav a.activo {
-	color: #FFF;
-}
-
 /* ---- ----- ----- Pelicula Principal ----- ----- ----- */
 .rapero-principal {
 	font-size: 16px;
@@ -99,133 +70,71 @@ header nav a.activo {
 .rapero-principal .boton i {
 	margin-right: 1.25em;
 }
-/* ---- ----- ----- Contenedor titulos y controles ----- ----- ----- */
-.contenedor-titulo-controles {
-	display: flex;
-	justify-content: space-between;
-	align-items: end;
-}
-
-.contenedor-titulo-controles h3 {
-	color: #fff;
-	font-size: 30px;
-}
-
-.contenedor-titulo-controles .indicadores button {
-	background: rgb(255, 255, 255);
-	height: 6px;
-	width: 20px;
-	cursor: pointer;
-	border: none;
-	margin-right: 2px;
-}
-
-.contenedor-titulo-controles .indicadores button:hover,
-.contenedor-titulo-controles .indicadores button.activo {
-	background: #E50914;
-}
 
 
-/* ---- ----- ----- Contenedor principal y flechas ----- ----- ----- */
-.albums-recomendados {
-	margin-bottom: 70px;
-}
 
-.albums-recomendados .contenedor-principal {
-	display: flex;
-	align-items: center;
-	position: relative;
-}
-
-.albums-recomendados .contenedor-principal .flecha-izquierda,
-.albums-recomendados .contenedor-principal .flecha-derecha {
-	position:absolute;
-	border: none;
-	background: rgba(0, 0, 0, 0.3);
-	font-size: 40px;
-	height: 50%;
-	top: calc(50%- 25%);
-	line-height: 40px;
-	width: 50px;
-	color: white;
-	cursor: pointer;
-	z-index: 500;
-	transition: .2s ease all;
-}
-
-/*que se vea mas las fechas al estar encima*/
-.albums-recomendados .contenedor-principal .flecha-izquierda:hover,
-.albums-recomendados .contenedor-principal .flecha-derecha:hover {
-	background: rgba(0, 0, 0, .9);
-}
-.albums-recomendados .contenedor-principal .flecha-izquierda {
-	left: 0;
-}
-.albums-recomendados .contenedor-principal .flecha-derecha {
-	right: 0;
-}
-
-/* ---- ----- ----- Carousel ----- ----- ----- */
-.albums-recomendados .contenedor-carousel {
+/* ------------------------- */
+/* Estilos CSS del Reproductor */
+/* ------------------------- */
+.fm-video {
 	width: 100%;
-	padding: 20px 0;
-	overflow: hidden;
-	scroll-behavior: smooth;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,.5);
 }
 
-.albums-recomendados .contenedor-carousel .carousel{
-	display: flex;
-	flex-wrap: nowrap;
+.fm-video .vjs-control-bar {
+	background: #F4F4F4;
+	color: #2d5f85;
 }
 
-.albums-recomendados .contenedor-carousel .carousel .album {
-	min-width: 20%;
-	transition: .3s ease all;
-	box-shadow: 5px 5px 10px rga(0,0,0, .3);
+.fm-video .vjs-play-progress,
+.fm-video .vjs-volume-level {
+	background: #1d87d8;
 }
 
-.albums-recomendados .contenedor-carousel .carousel .album.hover {
-	transform: scale(1.2);
-	transform-origin: center;
+.fm-video .vjs-slider {
+	background: #2d5f85;
 }
-.albums-recomendados .contenedor-carousel .carousel .album img {
-	width: 100%;
-	vertical-align: top;
+
+.video-js:hover .vjs-big-play-button {
+	background: rgba(0,0,0,.2);
 }
-/* ---- ----- ----- Movil ----- ----- ----- */
-@media screen and (max-width: 800px) {
-	header .logotipo {
-		margin-bottom: 10px;
-		font-size: 30px;
+
+.fm-video .vjs-big-play-button {
+	background: rgba(0,0,0,.2);
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	border:none;
+}
+
+.fm-video .vjs-big-play-button:hover {
+	background: rgba(0,0,0,.5);
+}
+
+article {
+	margin: 50px 0;
+	background: #fff;
+	color: #000;
+	font-size: 16px;
+	line-height: 28px;
+	padding: 40px;
+}
+
+article h2 {
+	color: #2D5F85;
+	font-size: 32px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		position: relative;
+		height: auto;
 	}
 
-	header .contenedor {
-		flex-direction: column;
-		text-align: center;
-	}
-
-	.rapero-principal {
-		font-size: 14px;
-	}
-
-	.rapero-principal .descripcion {
-		max-width: 100%;
-	}
-
-	.albums-recomendados .contenedor-carousel {
-		overflow: visible;
-	}
-
-	.albums-recomendados .contenedor-carousel .carousel {
-		display: grid;
-		grid-template-columns: repeat(3,1fr);
-		gap: 20p;
-
-	}
-
-	.albums-recomendados .indicadores,
-	.albums-recomendados .flecha-izquierda
-	.albums-recomendados .flecha-derecha {
-		display: none;
+	main {
+		margin-top: 50px;
 	}
 }
