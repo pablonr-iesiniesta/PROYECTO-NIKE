@@ -31,3 +31,98 @@
     margin-bottom: 1.25em;
     margin-left: 2em;
 }
+
+
+  /* ---- ----- ----- Contenedor titulos y controles ----- ----- ----- */
+  .contenedor-titulo-controles {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.contenedor-titulo-controles h3 {
+	color: #fff;
+	font-size: 30px;
+}
+
+.contenedor-titulo-controles .indicadores button {
+	background: rgb(0, 0, 0);
+	height: 6px;
+	width: 20px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo {
+	background: #E50914;
+}
+
+
+/* ---- ----- ----- Contenedor principal y flechas ----- ----- ----- */
+.jordan-zapatillas {
+	margin-bottom: 70px;
+}
+
+.jordan-zapatillas .contenedor-principal {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.jordan-zapatillas .contenedor-principal .flecha-izquierda,
+.jordan-zapatillas .contenedor-principal .flecha-derecha {
+	position:absolute;
+	border: none;
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 40px;
+	height: 50%;
+	top: calc(50%- 25%);
+	line-height: 40px;
+	width: 50px;
+	color: white;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+/*que se vea mas las fechas al estar encima*/
+.jordan-zapatillas .contenedor-principal .flecha-izquierda:hover,
+.jordan-zapatillas .contenedor-principal .flecha-derecha:hover {
+	background: rgba(0, 0, 0, .9);
+}
+.jordan-zapatillas .contenedor-principal .flecha-izquierda {
+	left: 0;
+}
+.jordan-zapatillas .contenedor-principal .flecha-derecha {
+	right: 0;
+}
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+.jordan-zapatillas .contenedor-carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.jordan-zapatillas .contenedor-carousel .carousel{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.jordan-zapatillas .contenedor-carousel .carousel .jordan {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rga(0,0,0, .3);
+}
+
+.jordan-zapatillas .contenedor-carousel .carousel .jordan.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+.jordan-zapatillas .contenedor-carousel .carousel .jordan img {
+	width: 100%;
+	vertical-align: top;
+}
