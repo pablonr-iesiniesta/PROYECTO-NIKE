@@ -7,17 +7,19 @@
 	width: 90%;
 	margin: auto;
 }
+
 /* --- --- Menú --- ---*/
     
     header {
         width: 100%;
-        background-color: white;
     }
     
     nav {
-        margin: -10px 750px;
+        margin: auto;
         width: 100%;
-        max-width: 100px;
+        max-width: 100%;
+        display: block;
+        margin-top: -10px;
     }
 
     /* --- --- Quitar puntos --- ---*/
@@ -85,17 +87,17 @@
 
     /* --- --- Imagenes al pasar el raton --- ---*/
     nav ul li a .primero{
-        background: black url(../img/jordan4.png);
-        background-size: 100%;
+        background:chartreuse;
+        background-size:100%;
     }
 
     nav ul li a .segundo{
-        background: black url(../img/dunk.png);
+        background:chocolate;
         background-size: 100%;
     }
 
     nav ul li a .tercero{
-        background: black url(../img/converse.png);
+        background:darkorchid;
         background-size: 100%;
     }
 
@@ -211,7 +213,19 @@ body{
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jodanjugando.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/historia-jordan-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.imagen-jordan-1:hover {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/historia-jordan-2.jpg);
     background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
@@ -269,7 +283,19 @@ body{
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/logo-nike-rojo.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jordan-nike-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.imagen-jordan-2:hover{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jordan-nike-2.jpg);
     background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
@@ -327,7 +353,19 @@ body{
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jordan-off-white.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jordan-offwhite-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.imagen-jordan-3:hover {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jordan-offwhite-2.jpg);
     background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
