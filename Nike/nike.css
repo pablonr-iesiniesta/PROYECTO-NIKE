@@ -11,14 +11,14 @@
 }
 /* --- --- Menú --- ---*/
     
-    header {
-        width: 100%;
-    }
+    
     
     nav {
-        margin: -10px 750px;
+        margin: auto;
         width: 100%;
-        max-width: 100px;
+        max-width: 100%;
+        display: block;
+        margin-top: -10px;
     }
 
     /* --- --- Quitar puntos --- ---*/
@@ -85,17 +85,17 @@
 
     /* --- --- Imagenes al pasar el raton --- ---*/
     nav ul li a .primero{
-        background: black url(img/jordan4.png);
-        background-size: 100%;
+        background:chartreuse;
+        background-size:100%;
     }
 
     nav ul li a .segundo{
-        background: black url(img/dunk.png);
+        background:chocolate;
         background-size: 100%;
     }
 
     nav ul li a .tercero{
-        background: black url(img/converse.png);
+        background:darkorchid;
         background-size: 100%;
     }
 
