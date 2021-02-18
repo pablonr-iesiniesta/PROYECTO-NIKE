@@ -7,7 +7,7 @@ body{
 .nombres {
     display: block;
     margin: auto;
-    margin-top:150px;
+    margin-top: 3%;
 }
 
 .nombres-1 {
@@ -37,7 +37,7 @@ body{
     background-color: #522828;
   }
 
-
+/*-- Zapatilla animación*/
   .svg-container{
     display: flex;
     align-items: center;

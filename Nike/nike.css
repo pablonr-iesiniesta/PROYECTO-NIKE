@@ -114,7 +114,19 @@
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/historia\ de\ nike.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img-nike/historiadenike-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.imagen-jordan-1:hover{
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img-nike/historiadenike-2.jpg);
     background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
@@ -173,7 +185,19 @@
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/nike-baloncesto.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img-nike/nocta-nike-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.imagen-jordan-2:hover {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img-nike/nocta-nike-2.jpg);
     background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
