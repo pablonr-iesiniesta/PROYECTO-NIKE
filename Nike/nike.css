@@ -110,11 +110,11 @@
         background-color: rgb(255, 255, 255);
     }    
 /* --- --- Primera imagen jordan --- ---*/
-.imagen-jordan-1 {
+.imagen-nike-1 {
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/historia\ de\ nike.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/historiadenike-1.jpg);
     background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
@@ -122,12 +122,24 @@
     align-items: end;
 }
 
-.imagen-jordan-1 .contenedor {
+.imagen-nike-1:hover {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/historiadenike-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.imagen-nike-1 .contenedor {
     margin: 0 auto;
     margin-bottom: 6.25em;
 }
 
-.imagen-jordan-1 .titulo {
+.imagen-nike-1 .titulo {
     font-weight: 600;
     font-size: 3.12em;
     margin-bottom: 0.4em;
@@ -135,7 +147,7 @@
     margin-left: 1em;
 }
 
-.imagen-jordan-1 .descripcion {
+.imagen-nike-1 .descripcion {
     font-weight: normal;
     font-size: 1em;
     line-height: 1.75em;
@@ -144,7 +156,7 @@
     margin-left: 2em;
 }
 
-.imagen-jordan-1 .boton {
+.imagen-nike-1 .boton {
     background: rgba(0,0,0, 0.5);
     border: none;
     border-radius: 0.31em;
@@ -157,7 +169,7 @@
     margin-left: 2em;
 }
 
-.imagen-jordan-1 .boton:hover {
+.imagen-nike-1 .boton:hover {
     background: #fff;
     color: #000;
 }
@@ -169,11 +181,11 @@
 
 /*sdssd*/
 
-.imagen-jordan-2 {
+.imagen-nike-2 {
     font-size: 16px;
     min-height: 40.62em;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/nike-baloncesto.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/nocta-nike-1.jpg);
     background-position: center center;
     background-size: cover;
     margin-bottom: 3.12em;
@@ -181,12 +193,24 @@
     align-items: end;
 }
 
-.imagen-jordan-2 .contenedor {
+.imagen-nike-2:hover {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/nocta-nike-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: end;
+}
+
+.imagen-nike-2 .contenedor {
     margin: 0 auto;
     margin-bottom: 6.25em;
 }
 
-.imagen-jordan-2 .titulo {
+.imagen-nike-2 .titulo {
     font-weight: 600;
     font-size: 3.12em;
     margin-bottom: 0.4em;
@@ -194,7 +218,7 @@
     margin-left: 1em;
 }
 
-.imagen-jordan-2 .descripcion {
+.imagen-nike-2 .descripcion {
     font-weight: normal;
     font-size: 1em;
     line-height: 1.75em;
@@ -203,7 +227,7 @@
     margin-left: 2em;
 }
 
-.imagen-jordan-2 .boton {
+.imagen-nike-2 .boton {
     background: rgba(0,0,0, 0.5);
     border: none;
     border-radius: 0.31em;
@@ -216,11 +240,11 @@
     margin-left: 2em;
 }
 
-.imagen-jordan-2 .boton:hover {
+.imagen-nike-2 .boton:hover {
     background: #fff;
     color: #000;
 }
 
-.imagen-jordan-2 .boton i {
+.imagen-nike-2 .boton i {
     margin-right: 1.25em;
 }
