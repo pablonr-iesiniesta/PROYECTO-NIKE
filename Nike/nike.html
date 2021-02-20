@@ -1,105 +1,179 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike</title>
-    <!--BOOTSTRAP-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- CSS principal -->
     <link rel="stylesheet" href="nike.css">
+    <title>Nike</title>
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img-nike/banner-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img-nike/banner-2.jpg" id="2" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img-nike/banner-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+      <!--Menú logos-->
+        <nav>
+            <ul>
+                <li><a href="../Jordan/jordan.html"><span class="primero"><i class="icon"></i></span><img src="img-nike/jordanlogo.png" width="100" alt="logojordan"></a></li>
+                <li><a href="#"><span class="segundo"><i class="icon"></i></span><img src="img-nike/nikelogo.png" width="100" alt="logonike"></a></li>
+                <li><a href="#"><span class="tercero"><i class="icon"></i></span><img src="img-nike/converselogo.png" width="100" alt="logoconverse"></a></li>
+            </ul>
+        </nav>
+    </header>
     
-</head>
-<body>
-  <header>
-    <!--Imagen principal-->
-    <img src="img-nike/Nike-banner.jpg" alt="" width="100%">
-    </div>
-    <!--Barra de Navegación-->
-      <nav>
-          <ul>
-              <li><a href="../Jordan/jordan.html"><span class="primero"><i class="icon"></i></span><img src="img-nike/jordanlogo.png" width="100" alt="logojordan"></a></li>
-              <li><a href="#"><span class="segundo"><i class="icon"></i></span><img src="img-nike/nikelogo.png" width="100" alt="logonike"></a></li>
-              <li><a href="#"><span class="tercero"><i class="icon"></i></span><img src="img-nike/converselogo.png" width="100" alt="logoconverse"></a></li>
-          </ul>
-      </nav>
-  </header>
+    <main class="main">
+      <!-- Imagen logo principal-->
+      <img src="img-nike/nikeprin.jpg" class="prin" width="100%" alt="">
+
+    
   
-  <main class="main">
-
-     
-
-  <div class="imagen-jordan-1">
-    <div class="contenedor">
-      <h3 class="titulo"> Historia de Nike</h3>
-      <p class="descripcion">
+      <div class="imagen-jordan-1">
+      <div class="contenedor">
+        <h3 class="titulo"> Historia de Nike</h3>
+        <p class="descripcion">
+        
+        </p>
+        <a href="https://www.youtube.com/watch?v=Al6PbKd7J1M" target="black"><button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button></a>
+        <button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+      </div>
+      </div>   
+  
+      <div class="imagen-jordan-2">
+      <div class="contenedor">
+        <h3 class="titulo">Drake x Nike = Nocta</h3>
+        <p class="descripcion">
+          
+        </p>
+  
+  
+        <a href="/Jordan/jordan-nike/jordannike.html" target="black"><button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button></a>
+        <button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+      </div>
+      </div>
+    
+      <h2>Estrellas del Fútbol x Nike</h2>
+      <div class="FutbolxNike">
+      <div class="futbolista">
+        <img src="img-nike/f1.jpg">
+        <span>Cristiano Ronaldo</span>
+      </div>
+      <div class="futbolista">
+        <img src="img-nike/f2.png">
+        <span>Clint Demsey</span>
+      </div>
+      <div class="futbolista">
+        <img src="img-nike/f3.jpg">
+        <span>Kylian Mbappe</span>
+      </div>
+      <div class="futbolista">
+        <img src="img-nike/f4.jpg">
+        <span>Oxlade-Chamberlain</span>
+      </div>
+      </div>
       
-      </p>
-      <a href="https://www.youtube.com/watch?v=Al6PbKd7J1M" target="black"><button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button></a>
-      <button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
-    </div>
-  </div>   
 
-  <div class="imagen-jordan-2">
-		<div class="contenedor">
-			<h3 class="titulo">Drake x Nike = Nocta</h3>
-			<p class="descripcion">
-				
-		  </p>
-
-
-			<a href="/Jordan/jordan-nike/jordannike.html" target="black"><button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button></a>
-			<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
-		</div>
-	</div>
+      <h2>Estrellas del Basket x Nike</h2>
+      <div class="FutbolxNike">
+      <div class="futbolista">
+        <img src="img-nike/b1.jpg">
+        <span>Kyrie Irving</span>
+      </div>
+      <div class="futbolista">
+        <img src="img-nike/b2.jpg">
+        <span>Kevin Durant</span>
+      </div>
+      <div class="futbolista">
+        <img src="img-nike/b3.jpg">
+        <span>Paul George</span>
+      </div>
+      <div class="futbolista">
+        <img src="img-nike/b4.jpg">
+        <span>Rusell Westbrook</span>
+      </div>
+      </div>
+    
+      
   
-  <div class="container2">
-    <div class="box">
-      <img src="img-nike/f1.jpg">
-      <span>Cristiano Ronaldo</span>
-    </div>
-    <div class="box">
-      <img src="img-nike/f2.png">
-      <span>Clint Demsey</span>
-    </div>
-    <div class="box">
-      <img src="https://source.unsplash.com/1000x804">
-      <span>Hover</span>
-    </div>
-    <div class="box">
-      <img src="https://source.unsplash.com/1000x806">
-      <span>Effect</span>
-    </div>
-  </div>
-  
-  
-  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-
-  </main>
-  <!-- Site footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>Política y privacidad</h6>
+    </main>
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>Política y privacidad</h6>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2021 Pablo, Adrián, Aurelio, Paco.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/nike" target="black"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/nike?lang=es" target="black"><i class="fa fa-twitter"></i></a></li> 
+            </ul>
+          </div>
         </div>
       </div>
-      <hr>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2021 Pablo, Adrián, Aurelio, Paco.
-          </p>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="https://www.facebook.com/nike" target="black"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter" href="https://twitter.com/nike?lang=es" target="black"><i class="fa fa-twitter"></i></a></li> 
-          </ul>
-        </div>
-      </div>
-    </div>
+  
+  </footer>
 
-</footer>
-</body>
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
+
+

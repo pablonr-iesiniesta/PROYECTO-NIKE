@@ -87,7 +87,7 @@
 
     /* --- --- Imagenes al pasar el raton --- ---*/
     nav ul li a .primero{
-        background:chartreuse;
+        background:#7fff00;
         background-size:100%;
     }
 
@@ -97,7 +97,7 @@
     }
 
     nav ul li a .tercero{
-        background:darkorchid;
+        background:#9932cc;
         background-size: 100%;
     }
 
