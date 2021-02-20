@@ -458,4 +458,19 @@
   }
 }
 
-
+/*Color header*/
+header {
+  background-color: rgba(219, 217, 223, 0.74);
+}
+h2 {
+  color: #f2f2f2;
+  background: #7fff00;
+  font-size: 55px;
+  line-height: 74px;
+  font-weight: 700;
+  margin: 0 5px 24px;
+  float: left;
+  padding: 10px;
+  margin: 0 5px 24px;
+  font-family: 'Libre Baskerville', serif;
+}
