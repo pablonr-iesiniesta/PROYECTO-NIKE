@@ -10,7 +10,8 @@
 
 .prin {
     margin-bottom: 10px;
-}
+  }
+
 /* --- --- Menú --- ---*/
     
     header {
@@ -113,103 +114,6 @@ main {
 body{
     background-color: rgb(255, 255, 255);
 }
-    /* ---- ----- ----- Contenedor titulos y controles ----- ----- ----- */
-.contenedor-titulo-controles {
-	display: flex;
-	justify-content: space-between;
-	align-items: end;
-}
-
-.contenedor-titulo-controles h3 {
-	color: #fff;
-	font-size: 30px;
-}
-
-.contenedor-titulo-controles .indicadores button {
-	background: rgb(0, 0, 0);
-	height: 6px;
-	width: 20px;
-	cursor: pointer;
-	border: none;
-	margin-right: 2px;
-}
-
-.contenedor-titulo-controles .indicadores button:hover,
-.contenedor-titulo-controles .indicadores button.activo {
-	background: #E50914;
-}
-
-
-/* ---- ----- ----- Contenedor principal y flechas ----- ----- ----- */
-.jordan-zapatillas {
-	margin-bottom: 70px;
-}
-
-.jordan-zapatillas .contenedor-principal {
-	display: flex;
-	align-items: center;
-	position: relative;
-}
-
-.jordan-zapatillas .contenedor-principal .flecha-izquierda,
-.jordan-zapatillas .contenedor-principal .flecha-derecha {
-	position:absolute;
-	border: none;
-	background: rgba(0, 0, 0, 0.3);
-	font-size: 40px;
-	height: 50%;
-	top: calc(50%- 25%);
-	line-height: 40px;
-	width: 50px;
-	color: white;
-	cursor: pointer;
-	z-index: 500;
-	transition: .2s ease all;
-}
-
-/*que se vea mas las fechas al estar encima*/
-.jordan-zapatillas .contenedor-principal .flecha-izquierda:hover,
-.jordan-zapatillas .contenedor-principal .flecha-derecha:hover {
-	background: rgba(0, 0, 0, .9);
-}
-.jordan-zapatillas .contenedor-principal .flecha-izquierda {
-	left: 0;
-}
-.jordan-zapatillas .contenedor-principal .flecha-derecha {
-	right: 0;
-}
-
-/* ---- ----- ----- Carousel ----- ----- ----- */
-.jordan-zapatillas .contenedor-carousel {
-	width: 100%;
-	padding: 20px 0;
-	overflow: hidden;
-	scroll-behavior: smooth;
-}
-
-.jordan-zapatillas .contenedor-carousel .carousel{
-	display: flex;
-	flex-wrap: nowrap;
-}
-
-.jordan-zapatillas .contenedor-carousel .carousel .jordan {
-	min-width: 20%;
-	transition: .3s ease all;
-	box-shadow: 5px 5px 10px rga(0,0,0, .3);
-}
-
-.jordan-zapatillas .contenedor-carousel .carousel .jordan.hover {
-	transform: scale(1.2);
-	transform-origin: center;
-}
-.jordan-zapatillas .contenedor-carousel .carousel .jordan img {
-	width: 100%;
-	vertical-align: top;
-}
-
-
-
-
 
 /* --- --- Primera imagen jordan --- ---*/
 .imagen-jordan-1 {
@@ -351,75 +255,6 @@ body{
 }
 
 
-/* --- --- Tercera imagen jordan --- ---*/
-.imagen-jordan-3 {
-    font-size: 16px;
-    min-height: 40.62em;
-    color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jordan-offwhite-1.jpg);
-    background-position: center center;
-    background-size: cover;
-    margin-bottom: 3.12em;
-    display: flex;
-    align-items: end;
-}
-
-.imagen-jordan-3:hover {
-    font-size: 16px;
-    min-height: 40.62em;
-    color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jordan-offwhite-2.jpg);
-    background-position: center center;
-    background-size: cover;
-    margin-bottom: 3.12em;
-    display: flex;
-    align-items: end;
-}
-
-.imagen-jordan-3 .contenedor {
-    margin: 0 auto;
-    margin-bottom: 6.25em;
-}
-
-.imagen-jordan-3 .titulo {
-    font-weight: 600;
-    font-size: 3.12em;
-    margin-bottom: 0.4em;
-    margin-top: 0.5em;
-    margin-left: 1em;
-}
-
-.imagen-jordan-3 .descripcion {
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 1.75em;
-    max-width: 50%;
-    margin-bottom: 1.25em;
-    margin-left: 2em;
-}
-
-.imagen-jordan-3 .boton {
-    background: rgba(0,0,0, 0.5);
-    border: none;
-    border-radius: 0.31em;
-    padding: 0.93em 1.87em;
-    color: #fff;
-    margin-right: 1.25em;
-    cursor: pointer;
-    transition: .3s ease all;
-    font-size: 1.12em;
-    margin-left: 2em;
-}
-
-.imagen-jordan-3 .boton:hover {
-    background: #fff;
-    color: #000;
-}
-
-.imagen-jordan-3 .boton i {
-    margin-right: 1.25em;
-}
-
 /*footer*/
 
 .site-footer
@@ -479,11 +314,11 @@ body{
 }
 .footer-links.inline li
 {
-  display:inline-block;
+  display:inline-block
 }
 .site-footer .social-icons
 {
-  text-align:right;
+  text-align:right
 }
 .site-footer .social-icons a
 {
