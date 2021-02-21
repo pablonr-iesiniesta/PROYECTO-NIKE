@@ -3,7 +3,7 @@
     --blue: #aad5ff;
     --lb: rgba(0, 0, 0, 0.5);
   }
-  body {
+  main {
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -115,7 +115,7 @@
 
   @import "compass/css3";
 
-  body{ 
+  main { 
     background:radial-gradient(200% 100% at bottom center,#F7F7B6,#E96F92,#75517D,#1B2947); 
     background:radial-gradient(220% 105% at top center,#1B2947 10%,#75517D 40%,#E96F92 65%,#F7F7B6); 
     background-attachment:fixed; 

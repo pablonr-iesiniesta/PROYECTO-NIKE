@@ -1,419 +1,352 @@
 * {
     margin: 0;
     padding: 0;
-}    
-
-.contenedor {
-	width: 90%;
-	margin: auto;
-}
-
-.prin {
+    box-sizing: border-box;
+  }    
+  
+  .contenedor {
+      width: 90%;
+      margin: auto;
+  }
+  
+  .prin {
     margin-bottom: 10px;
   }
-
-/* --- --- Menú --- ---*/
-    
-    header {
-        width: 100%;
-    }
-    
-    nav {
-        margin: auto;
-        width: 100%;
-        max-width: 100%;
-        display: block;
-        margin-top: -10px;
-    }
-
-    /* --- --- Quitar puntos --- ---*/
-    nav ul {
-        list-style: none;
-    }
-
-    /* --- --- Configurar menú --- ---*/
-    nav > ul {
-        display: table;
-        overflow: hidden;
-        width: 100%;
-        background: rgb(255, 255, 255);
-        position: relative;
-    }
-
-    nav > ul li {
-        display: table-cell;
-        height: 100%;
-    }
-
-
-    /* --- --- Transición --- ---*/
-    
-    nav > ul li a {
-        color: white;
-        display: block;
-        line-height: 20px;
-        padding: 20px;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
-    }
-
-    nav > ul > li > a span {
-        background: #030303;
-        display: block;
-        height: 100%;
-        width: 100%;
-        left: 0;
-        position: absolute;
-        top: -130px;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
-    }
-
-    nav > ul > li > a span .icon {
-        display: block;
-        line-height: 60px;
-    }
-
+  
+  .imgcenter {
+    display: block;
+    margin: auto;
+  }
+  
+  /* --- --- Menú --- ---*/
+      
+  nav {
+      margin: auto;
+      width: 100%;
+      max-width: 100%;
+      display: block;
+      margin-top: -10px;
+  }
+  
+  /* --- --- Quitar puntos --- ---*/
+  
+  nav ul {
+      list-style: none;
+  }
+  
+  /* --- --- Configurar menú --- ---*/
+  
+  nav > ul {
+      display: table;
+      overflow: hidden;
+      width: 100%;
+      background: rgb(255, 255, 255);
+      position: relative;
+  }
+  
+  nav > ul li {
+      display: table-cell;
+      height: 100%;
+  }
+  
+  /* --- --- Transición --- ---*/
+      
+  nav > ul li a {
+      color: white;
+      display: block;
+      line-height: 20px;
+      padding: 20px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      -webkit-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease;
+  }
+  
+  nav > ul > li > a span {
+      background: #030303;
+      display: block;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      position: absolute;
+      top: -130px;
+      -webkit-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease;
+  }
+  
+  nav > ul > li > a span .icon {
+      display: block;
+      line-height: 60px;
+  }
+  
     /* --- --- Cuando se pasa el raton se desplaza --- ---*/
     nav > ul > li > a:hover > span {
-        top: 0;
-    }
-
-
-    /* --- --- Imagenes al pasar el raton --- ---*/
-    nav ul li a .primero{
-        background:url(../Nike/img-nike/jordanlogo2.jpg);
-        background-size:100%;
-    }
-
-    nav ul li a .segundo{
-        background:url(../Nike/img-nike/nikelogo2.jpg);
-        background-size: 100%;
-    }
-
-    nav ul li a .tercero{
-        background:url(../Nike/img-nike/converselogo-2.jpg);
-        background-size: 100%;
-    }
-
-
-main {
-    margin: 10px 100px;
-    background-color: rgb(255, 255, 255);
-}
-
-body{
-    background-color: rgb(255, 255, 255);
-}
-
-/* --- --- Primera imagen jordan --- ---*/
-.imagen-jordan-1 {
-    font-size: 16px;
-    min-height: 40.62em;
-    color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/historia-jordan-1.jpg);
-    background-position: center center;
-    background-size: cover;
-    margin-bottom: 3.12em;
-    display: flex;
-    align-items: end;
-}
-
-.imagen-jordan-1:hover {
-    font-size: 16px;
-    min-height: 40.62em;
-    color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/historia-jordan-2.jpg);
-    background-position: center center;
-    background-size: cover;
-    margin-bottom: 3.12em;
-    display: flex;
-    align-items: end;
-}
-
-.imagen-jordan-1 .contenedor {
-    margin: 0 auto;
-    margin-bottom: 6.25em;
-}
-
-.imagen-jordan-1 .titulo {
-    font-weight: 600;
-    font-size: 3.12em;
-    margin-bottom: 0.4em;
-    margin-top: 0.5em;
-    margin-left: 1em;
-}
-
-.imagen-jordan-1 .descripcion {
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 1.75em;
-    max-width: 50%;
-    margin-bottom: 1.25em;
-    margin-left: 2em;
-}
-
-.imagen-jordan-1 .boton {
-    background: rgba(0,0,0, 0.5);
-    border: none;
-    border-radius: 0.31em;
-    padding: 0.93em 1.87em;
-    color: #fff;
-    margin-right: 1.25em;
-    cursor: pointer;
-    transition: .3s ease all;
-    font-size: 1.12em;
-    margin-left: 2em;
-}
-
-.imagen-jordan-1 .boton:hover {
-    background: #fff;
-    color: #000;
-}
-
-.imagen-jordan-1 .boton i {
-    margin-right: 1.25em;
-}
-
-
-/* --- --- Segunda imagen jordan --- ---*/
-.imagen-jordan-2 {
-    font-size: 16px;
-    min-height: 40.62em;
-    color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jordan-nike-1.jpg);
-    background-position: center center;
-    background-size: cover;
-    margin-bottom: 3.12em;
-    display: flex;
-    align-items: end;
-}
-
-.imagen-jordan-2:hover{
-    font-size: 16px;
-    min-height: 40.62em;
-    color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img/jordan-nike-2.jpg);
-    background-position: center center;
-    background-size: cover;
-    margin-bottom: 3.12em;
-    display: flex;
-    align-items: end;
-}
-
-.imagen-jordan-2 .contenedor {
-    margin: 0 auto;
-    margin-bottom: 6.25em;
-}
-
-.imagen-jordan-2 .titulo {
-    font-weight: 600;
-    font-size: 3.12em;
-    margin-bottom: 0.4em;
-    margin-top: 0.5em;
-    margin-left: 1em;
-}
-
-.imagen-jordan-2 .descripcion {
-    font-weight: normal;
-    font-size: 1em;
-    line-height: 1.75em;
-    max-width: 50%;
-    margin-bottom: 1.25em;
-    margin-left: 2em;
-}
-
-.imagen-jordan-2 .boton {
-    background: rgba(0,0,0, 0.5);
-    border: none;
-    border-radius: 0.31em;
-    padding: 0.93em 1.87em;
-    color: #fff;
-    margin-right: 1.25em;
-    cursor: pointer;
-    transition: .3s ease all;
-    font-size: 1.12em;
-    margin-left: 2em;
-}
-
-.imagen-jordan-2 .boton:hover {
-    background: #fff;
-    color: #000;
-}
-
-.imagen-jordan-2 .boton i {
-    margin-right: 1.25em;
-}
-
-
-/*footer*/
-
-.site-footer
-{
-  background-color:#26272b;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#737373;
-  margin: auto;
-}
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5;
-}
-.site-footer hr.small
-{
-  margin:20px 0;
-}
-.site-footer h6
-{
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px;
-  margin-left: 5px;
-}
-.site-footer a
-{
-  color:#737373;
-  margin-left: 15px;
-}
-.site-footer a:hover
-{
-  color:#fca400;
-  text-decoration:none;
-}
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
-.footer-links li
-{
-  display:block
-}
-.footer-links a
-{
-  color:#737373;
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links.inline li
-{
-  display:inline-block
-}
-.site-footer .social-icons
-{
-  text-align:right
-}
-.site-footer .social-icons a
-{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#33353d
-}
-.copyright-text
-{
-  margin:0
-}
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
+      top: 0;
   }
-}
-@media (max-width:767px)
-{
+  
+  /* --- --- Imagenes al pasar el raton --- ---*/
+  
+  nav ul li a .primero{
+      background:url(../Nike/img-nike/jordanlogo2.jpg);
+      background-size:100%;
+  }
+  
+  nav ul li a .segundo{
+      background:url(../Nike/img-nike/nikelogo2.jpg);
+      background-size: 100%;
+  }
+  
+  nav ul li a .tercero{
+      background:url(../Nike/img-nike/converselogo-2.jpg);
+      background-size: 100%;
+  }
+  
+  
+  /* --- --- Margen imagenes --- ---*/
+  
+  main {
+      margin: 10px 100px;
+      background-color: rgb(255, 255, 255);
+  }
+  
+  /* --- --- Primera imagen Nike --- ---*/
+  .imagen-nike-1 {
+      font-size: 16px;
+      min-height: 40.62em;
+      color: #fff;
+      background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(converse-img/historia-converse.jpg);
+      background-position: center center;
+      background-size: cover;
+      margin-bottom: 3.12em;
+      display: flex;
+      align-items: end;
+  }
+  
+  .imagen-nike-1:hover{
+      font-size: 16px;
+      min-height: 40.62em;
+      color: #fff;
+      background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(converse-img/historia-converse-2.jpg);
+      background-position: center center;
+      background-size: cover;
+      margin-bottom: 3.12em;
+      display: flex;
+      align-items: end;
+  }
+  
+  .imagen-nike-1 .contenedor {
+      margin: 0 auto;
+      margin-bottom: 6.25em;
+  }
+  
+  .imagen-nike-1 .titulo {
+      font-weight: 600;
+      font-size: 3.12em;
+      margin-bottom: 0.4em;
+      margin-top: 0.5em;
+      margin-left: 1em;
+  }
+  
+  .imagen-nike-1 .descripcion {
+      font-weight: normal;
+      font-size: 1em;
+      line-height: 1.75em;
+      max-width: 50%;
+      margin-bottom: 1.25em;
+      margin-left: 2em;
+  }
+  
+  .imagen-nike-1 .boton {
+      background: rgba(0,0,0, 0.5);
+      border: none;
+      border-radius: 0.31em;
+      padding: 0.93em 1.87em;
+      color: #fff;
+      margin-right: 1.25em;
+      cursor: pointer;
+      transition: .3s ease all;
+      font-size: 1.12em;
+      margin-left: 2em;
+  }
+  
+  .imagen-nike-1 .boton:hover {
+      background: #fff;
+      color: #000;
+  }
+  
+  .imagen-nike-1 .boton i {
+      margin-right: 1.25em;
+  }
+  
+  
+
+  
+  /* --- --- Footer --- ---*/
+  
   .site-footer
   {
-    padding-bottom:0
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+    margin: auto;
   }
-  .site-footer .copyright-text,.site-footer .social-icons
+  .site-footer hr
   {
-    text-align:center
+    border-top-color:#bbb;
+    opacity:0.5;
   }
-}
-.social-icons
-{
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none;
-  margin-right: 15px;
-}
-.social-icons li
-{
-  display:inline-block;
-  margin-bottom:4px
-}
-.social-icons li.title
-{
-  margin-right:15px;
-  text-transform:uppercase;
-  color:#96a2b2;
-  font-weight:700;
-  font-size:13px
-}
-.social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
-  font-size:16px;
-  display:inline-block;
-  line-height:44px;
-  width:44px;
-  height:44px;
-  text-align:center;
-  margin-right:8px;
-  border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-  color:#fff;
-  background-color:#29aafe
-}
-.social-icons.size-sm a
-{
-  line-height:34px;
-  height:34px;
-  width:34px;
-  font-size:14px
-}
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-
-@media (max-width:767px)
-{
+  .site-footer hr.small
+  {
+    margin:20px 0;
+  }
+  .site-footer h6
+  {
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px;
+    margin-left: 5px;
+  }
+  .site-footer a
+  {
+    color:#737373;
+    margin-left: 15px;
+  }
+  .site-footer a:hover
+  {
+    color:#fca400;
+    text-decoration:none;
+  }
+  .footer-links
+  {
+    padding-left:0;
+    list-style:none
+  }
+  .footer-links li
+  {
+    display:block
+  }
+  .footer-links a
+  {
+    color:#737373;
+  }
+  .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+  {
+    color:#3366cc;
+    text-decoration:none;
+  }
+  .footer-links.inline li
+  {
+    display:inline-block
+  }
+  .site-footer .social-icons
+  {
+    text-align:right
+  }
+  .site-footer .social-icons a
+  {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+  }
+  .copyright-text
+  {
+    margin:0
+  }
+  @media (max-width:991px)
+  {
+    .site-footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px)
+  {
+    .site-footer
+    {
+      padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+      text-align:center
+    }
+  }
+  .social-icons
+  {
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none;
+    margin-right: 15px;
+  }
+  .social-icons li
+  {
+    display:inline-block;
+    margin-bottom:4px
+  }
   .social-icons li.title
   {
-    display:block;
-    margin-right:0;
-    font-weight:600
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
   }
-}
+  .social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+  }
+  .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+  {
+    color:#fff;
+    background-color:#29aafe
+  }
+  .social-icons.size-sm a
+  {
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+  }
+  .social-icons a.facebook:hover
+  {
+    background-color:#3b5998
+  }
+  .social-icons a.twitter:hover
+  {
+    background-color:#00aced
+  }
+  
+  @media (max-width:767px)
+  {
+    .social-icons li.title
+    {
+      display:block;
+      margin-right:0;
+      font-weight:600
+    }
+  }

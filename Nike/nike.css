@@ -1,8 +1,7 @@
-    
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }    
 
 .contenedor {
@@ -18,107 +17,106 @@
   display: block;
   margin: auto;
 }
+
 /* --- --- Menú --- ---*/
     
+nav {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-top: -10px;
+}
+
+/* --- --- Quitar puntos --- ---*/
+
+nav ul {
+    list-style: none;
+}
+
+/* --- --- Configurar menú --- ---*/
+
+nav > ul {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+
+nav > ul li {
+    display: table-cell;
+    height: 100%;
+}
+
+/* --- --- Transición --- ---*/
     
-    
-    nav {
-        margin: auto;
-        width: 100%;
-        max-width: 100%;
-        display: block;
-        margin-top: -10px;
-    }
+nav > ul li a {
+    color: white;
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
 
-    /* --- --- Quitar puntos --- ---*/
-    nav ul {
-        list-style: none;
-    }
+nav > ul > li > a span {
+    background: #030303;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -130px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
 
-    /* --- --- Configurar menú --- ---*/
-    nav > ul {
-        display: table;
-        overflow: hidden;
-        width: 100%;
-        background: rgb(255, 255, 255);
-        position: relative;
-    }
+nav > ul > li > a span .icon {
+    display: block;
+    line-height: 60px;
+}
 
-    nav > ul li {
-        display: table-cell;
-        height: 100%;
-    }
+  /* --- --- Cuando se pasa el raton se desplaza --- ---*/
+  nav > ul > li > a:hover > span {
+    top: 0;
+}
 
-    /* --- --- Transición --- ---*/
-    
-    nav > ul li a {
-        color: white;
-        display: block;
-        line-height: 20px;
-        padding: 20px;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
-    }
+/* --- --- Imagenes al pasar el raton --- ---*/
 
-    nav > ul > li > a span {
-        background: #030303;
-        display: block;
-        height: 100%;
-        width: 100%;
-        left: 0;
-        position: absolute;
-        top: -130px;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -ms-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
-    }
+nav ul li a .primero{
+    background:url(img-nike/jordanlogo2.jpg);
+    background-size:100%;
+}
 
-    nav > ul > li > a span .icon {
-        display: block;
-        line-height: 60px;
-    }
+nav ul li a .segundo{
+    background:url(img-nike/nikelogo2.jpg);
+    background-size: 100%;
+}
 
-    /* --- --- Cuando se pasa el raton se desplaza --- ---*/
-    nav > ul > li > a:hover > span {
-        top: 0;
-    }
+nav ul li a .tercero{
+    background:url(img-nike/converselogo-2.jpg);
+    background-size: 100%;
+}
 
 
-    /* --- --- Imagenes al pasar el raton --- ---*/
-    nav ul li a .primero{
-        background:url(img-nike/jordanlogo2.jpg);
-        background-size:100%;
-    }
+/* --- --- Margen imagenes --- ---*/
 
-    nav ul li a .segundo{
-        background:url(img-nike/nikelogo2.jpg);
-        background-size: 100%;
-    }
+main {
+    margin: 10px 100px;
+    background-color: rgb(255, 255, 255);
+}
 
-    nav ul li a .tercero{
-        background:url(img-nike/converselogo-2.jpg);
-        background-size: 100%;
-    }
-
-
-
-    main {
-        margin: 10px 100px;
-        background-color: rgb(255, 255, 255);
-    }
-    
-    body{
-        background-color: rgb(255, 255, 255);
-    }    
-/* --- --- Primera imagen jordan --- ---*/
+/* --- --- Primera imagen Nike --- ---*/
 .imagen-nike-1 {
     font-size: 16px;
     min-height: 40.62em;
@@ -188,7 +186,7 @@
 }
 
 
-/*sdssd*/
+/* --- --- Segunda imagen Nike --- ---*/
 
 .imagen-nike-2 {
     font-size: 16px;
@@ -259,7 +257,7 @@
 }
 
 
-
+/* --- --- Tercera imagen Nike --- ---*/
 
 .imagen-nike-3 {
   font-size: 16px;
@@ -329,48 +327,7 @@
   margin-right: 1.25em;
 }
 
-/* --- --- Futbolistas x Nike --- ---*/
-
-.FutbolxNike {
-  display: flex;
-  width: 100%;
-  padding: 4% 2%;
-  box-sizing: border-box;
-  height: 80vh;
-}
-
-.futbolista {
-  flex: 1;
-  overflow: hidden;
-  transition: .5s;
-  margin: 0 2%;
-  box-shadow: 0 20px 30px rgba(0,0,0,.1);
-  line-height: 0;
-}
-
-.futbolista > img {
-  width: 200%;
-  height: calc(100% - 10vh);
-  object-fit: cover; 
-  transition: .5s;
-}
-
-.futbolista > span {
-  font-size: 3.8vh;
-  display: block;
-  text-align: center;
-  height: 10vh;
-  line-height: 2.6;
-}
-
-.futbolista:hover { flex: 1 1 50%; }
-.futbolista:hover > img {
-  width: 100%;
-  height: 100%;
-}
-
-
-/*footer*/
+/* --- --- Footer --- ---*/
 
 .site-footer
 {
@@ -533,39 +490,3 @@
   }
 }
 
-/*Color header*/
-header {
-  background-color: rgba(219, 217, 223, 0.74);
-}
-h2 {
-  color: #f2f2f2;
-  background: #7fff00;
-  font-size: 55px;
-  line-height: 74px;
-  font-weight: 700;
-  margin: 0 5px 24px;
-  float: left;
-  padding: 10px;
-  margin: 0 5px 24px;
-  font-family: 'Libre Baskerville', serif;
-}
-
-.h2 {
-  font-size: 2rem;
-	    text-align: center;
-      height:10vh;
-      line-height: 10vh;
-	    color: #fcedd8;
-	    background: #d52e3f;
-	   	font-family: 'Niconne', cursive;
-	    font-weight: 700;
-      text-shadow: 2px 2px 0px #eb452b, 
-                  4px 4px 0px #efa032, 
-                  6px 6px 0px #46b59b, 
-                  8px 8px 0px #017e7f, 
-                  10px 10px 0px #052939, 
-                  12px 12px 0px #c11a2b, 
-                  14px 14px 0px #c11a2b, 
-                  16px 16px 0px #c11a2b, 
-                  18px 18px 0px #c11a2b;
-}
