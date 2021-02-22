@@ -7,3 +7,12 @@ main {
   display: block;
   margin: auto;
 }
+main{
+  margin-left: 80px;
+}
+main{
+  margin-right: 80px;
+}
+h1{
+  margin-left: 700px;
+}
