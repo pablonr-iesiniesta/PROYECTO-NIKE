@@ -1,0 +1,9 @@
+main {
+  margin-left: 2vh;
+}
+
+.img {
+  width: 100vh;
+  display: block;
+  margin: auto;
+}
