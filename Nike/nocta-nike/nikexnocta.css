@@ -293,3 +293,11 @@
   margin: auto;
   display: block;
 }
+
+p {
+  margin-left: 1vh;
+  margin-top: 2vh;
+  color: #070707;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Courier, monospace;
+  
+}
