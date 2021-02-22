@@ -7,14 +7,32 @@ body {
 }
 main  {
   background-color: #011a18;
-  margin-top: -3vh;
+  margin-top: 0vh;
   background: url(img/fondo.jpg) ;
+  height: 100vh;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+  
   
 }
+
+.imagencentrada {
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
+  
+}
+
+
+
+
 
 /*--- --- Fuentes --- --- */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900|Roboto+Condensed');
 
+
+/*--- --- Nike x Nocat logo --- --- */
 .titulo-nocta {
   margin: 20px auto;
   background: #001514;
@@ -30,6 +48,7 @@ main  {
   font-style: italic;
 }
 
+/*--- ---  Forma Casillas --- --- */
 .contenido {
   margin: 0 auto 20px;
   background: #001514;
@@ -41,88 +60,92 @@ main  {
   position: relative;
 }
 
+/*--- --- Color Palabras Especiales --- --- */
 .contenido b,
 .contenido strong,
 .contenido i {
   color: #476c9b;
 }
 
-/*/ SUBFORO - IMAGEN A LA IZQUIERDA*/
+/*--- ---  Encuadrar Contenido Izquierda --- --- */
 
 .contenido__izquierda {
   grid-template-columns: 300px auto;
 }
 
-.contenido__izquierda .content__side {
+.contenido__izquierda .nocta-sitio {
   border-left: 1px solid rgba(255, 255, 255, 0.065);
 }
 
-.contenido__izquierda .statistics {
+.contenido__izquierda .estadodeventa {
   bottom: 0;
   right: 0;
 }
 
-.contenido__izquierda .statistics .stat:nth-child(2) {
+.contenido__izquierda .estadodeventa .stat:nth-child(2) {
   border-left: none;
   border-right: none;
 }
 
-.contenido__izquierda .content__side .description {
+.contenido__izquierda .nocta-sitio .descripccion {
   grid-template-columns: auto 250px;
 }
 
-.contenido__izquierda .content__side .description .text {
+/*--- ---  Texto Arriba Derecha --- --- */
+
+.contenido__izquierda .nocta-sitio .descripccion .texto {
   border-left: 1px solid rgba(255, 255, 255, 0.065);
 }
 
-.contenido__izquierda .content__side .description .desc_last__side .last__post {
+.contenido__izquierda .nocta-sitio .descripccion .desc_last__side .last__post {
   border-left: 1px solid rgba(255, 255, 255, 0.065);
 }
 
-/*/ SUBFORO - IMAGEN A LA DERECHA*/
+/*--- ---  Encuadrar Contenido Derecha --- --- */
 
 .contenido__right {
   grid-template-columns: auto 300px;
 }
 
-.contenido__right .content__side {
+.contenido__right .nocta-sitio {
   border-right: 1px solid rgba(255, 255, 255, 0.065);
   grid-row: 1;
 }
 
-.contenido__right .statistics {
+.contenido__right .estadodeventa {
   bottom: 0;
   left: 0;
 }
 
-.contenido__right .statistics .stat:nth-child(1) {
+.contenido__right .estadodeventa .stat:nth-child(1) {
   border-left: none;
   border-right: none;
 }
 
-.contenido__right .content__side .description {
+.contenido__right .nocta-sitio .descripccion {
   grid-template-columns: 250px auto;
 }
 
-.contenido__right .content__side .description .text {
+.contenido__right .nocta-sitio .descripccion .texto {
   border-right: 1px solid rgba(255, 255, 255, 0.065);
 }
 
-.contenido__right .content__side .description .desc_last__side {
+.contenido__right .nocta-sitio .descripccion .desc_last__side {
   grid-row: 1;
 }
 
-.contenido__right .content__side .description .desc_last__side .last__post {
+/*--- ---  Ajustar margen en fechas --- --- */
+.contenido__right .nocta-sitio .descripccion .desc_last__side .fechas {
   border-right: 1px solid rgba(255, 255, 255, 0.065);
 }
 
-/*/ SUBFOROS INDIVIDUALES*/
+/*--- ---  Imágenes --- --- */
 
-.subfr-1 .image__side .image {
+.imgdrake .image__side .image {
   background: url('img/drake.jpg');
 }
 
-.subfr-2 .image__side .image {
+.chaquetaamarilla .image__side .image {
   background: url('img/noctachaqueta.jpg');
 }
 
@@ -164,7 +187,7 @@ main  {
   transform: skew(-35deg) !important;
 }
 
-.contenido .statistics {
+.contenido .estadodeventa {
   width: 250px;
   height: 30px;
   display: grid;
@@ -172,7 +195,7 @@ main  {
   position: absolute;
 }
 
-.contenido .statistics .stat {
+.contenido .estadodeventa .stat {
   font-family: 'Roboto Condensed', sans-serif;
   color: rgba(255, 255, 255, 0.555);
   text-decoration: none;
@@ -186,27 +209,28 @@ main  {
   transition: all ease .345s;
 }
 
-.contenido .statistics .stat i {
+.contenido .estadodeventa .stat i {
   font-size: 10px;
   border-right: 1px solid rgba(255, 255, 255, 0.155);
   padding-right: 5px;
   margin-right: 5px;
 }
 
-.contenido .content__side .description {
+.contenido .nocta-sitio .descripccion {
   display: grid;
   grid-auto-flow: dense;
   grid-template-columns: 249px 250px;
   grid-template-rows: 300px;
 }
 
-.contenido .content__side .description .desc_last__side {
+.contenido .nocta-sitio .descripccion .desc_last__side {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 195px 75px;
 }
 
-.contenido .content__side .description .desc_last__side .text {
+/*--- ---  Texto Abajo Izquierda --- --- */
+.contenido .nocta-sitio .descripccion .desc_last__side .texto {
   height: 155px;
   padding: 20px;
   overflow: auto;
@@ -216,12 +240,13 @@ main  {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.contenido .content__side .description .desc_last__side .last__post {
+/*--- ---  Margen Fechas Abajo Izquierda --- --- */
+.contenido .nocta-sitio .descripccion .desc_last__side .fechas {
   width: 210px;
   padding: 0px 20px;
 }
 
-.contenido .content__side .description .desc_last__side .fecha1 {
+.contenido .nocta-sitio .descripccion .desc_last__side .fecha1 {
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: #476c9b;
@@ -233,7 +258,7 @@ main  {
   overflow: hidden;
 }
 
-.contenido .content__side .description .desc_last__side .fecha2 {
+.contenido .nocta-sitio .descripccion .desc_last__side .fecha2 {
   display: block;
   color: rgba(255, 255, 255, 0.555);
   font-family: 'Roboto Condensed', sans-serif;
@@ -246,11 +271,11 @@ main  {
   overflow: hidden;
 }
 
-.contenido .content__side .description .contenidos {
+.contenido .nocta-sitio .descripccion .contenidos {
   padding: 25px;
 }
 
-.contenido .content__side .description .quoted {
+.contenido .nocta-sitio .descripccion .quoted {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -263,7 +288,7 @@ main  {
   letter-spacing: 1px;
 }
 
-.contenido .content__side .description .contenidos .ropa {
+.contenido .nocta-sitio .descripccion .contenidos .ropa {
   height: 25px;
   padding: 6px;
   display: block;
@@ -282,6 +307,6 @@ main  {
   transition: all ease .345s;
 }
 
-.contenido .content__side .description .contenidos .ropa:hover {
+.contenido .nocta-sitio .descripccion .contenidos .ropa:hover {
   background: transparent;
 }
