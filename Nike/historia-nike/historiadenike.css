@@ -75,7 +75,7 @@
 }
 .copyright-text
 {
-  margin:0
+  margin:50px
 }
 @media (max-width:991px)
 {
@@ -159,4 +159,24 @@
     margin-right:0;
     font-weight:600
   }
+}
+
+main {
+  margin-left: 80px;
+}
+main{
+  margin-right: 80px;
+}
+ 
+main {
+  margin-bottom: 80px;
+}
+h1{
+  margin-top: 35px;
+}
+h1{
+  margin-bottom: 35px;
+}
+h1{
+  margin-left: 35px;
 }
