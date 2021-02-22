@@ -180,3 +180,8 @@ h1{
 h1{
   margin-left: 35px;
 }
+
+#1 {
+  display: block;
+  margin-right: auto;
+}
