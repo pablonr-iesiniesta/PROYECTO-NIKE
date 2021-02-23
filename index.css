@@ -1,5 +1,5 @@
 body{
-    background:#F5F0E5;
+    background:#faebeb;
     height: 100%;
     width: 100%;
 } 
@@ -7,13 +7,15 @@ body{
 .nombres {
     display: block;
     margin: auto;
-    margin-top: 15vh;
+    margin-top: 22vh;
+    width: 50vh;
 }
 
 .nombres-1 {
     display: block;
     margin: auto;
     margin-top: 30vh;
+    width: 50vh;
 }
     
 
@@ -32,10 +34,7 @@ body{
     height: 50%;
     margin-top: 50px;
   }
-  .boton:hover{
-    color: #6d7e86;
-    background-color: #522828;
-  }
+  
 
 /*-- Zapatilla animación*/
   .svg-container{
